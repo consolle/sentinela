@@ -6,11 +6,11 @@ class Application extends \Consolle\Application implements \Consolle\Contracts\K
      * Name Application
      * @var string
      */
-    public $name   = 'serverstatus';
+    public $name   = 'sentinela';
 
     /**
      * Title Application
      * @var string
      */
-    public $title   = 'Server Status';
+    public $title   = 'NetForce Sentinela';
 }
