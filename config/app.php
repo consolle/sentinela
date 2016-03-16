@@ -100,6 +100,7 @@ return [
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Filesystem\FilesystemServiceProvider',
         'Illuminate\Translation\TranslationServiceProvider',
+        'Illuminate\Database\DatabaseServiceProvider',
         'Consolle\Foundation\ServiceProvider',
 	],
 
@@ -123,9 +124,11 @@ return [
 		'File'      => 'Illuminate\Support\Facades\File',
         'Log'       => 'Illuminate\Support\Facades\Log',
 		'Lang'      => 'Illuminate\Support\Facades\Lang',
+		'DB'        => 'Illuminate\Support\Facades\DB',
 	],
 
     'commands' => [
+        'capture' => 'App\Commands\CaptureCommand',
         //'teste' => 'App\Commands\TesteCommand',
     ],
 

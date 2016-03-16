@@ -1,7 +1,7 @@
 {
-	"name": "consolle/serverstatus",
-	"description": "Get server status in linux",
-	"keywords": ["consolle","php", "netforce", "serverstatus"],
+	"name": "consolle/sentinela",
+	"description": "Sentinela Server Linux",
+	"keywords": ["consolle","php", "netforce", "sentinela"],
 	"license": "GPL v.3",
 	"type": "library",
     "authors": [
@@ -12,7 +12,8 @@
     ],
 
     "require" : {
-        "consolle/framework": "dev-master"
+        "consolle/framework": "dev-master",
+        "illuminate/database": "5.0.*"
     },
 
 	"autoload": {
