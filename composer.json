@@ -1,0 +1,31 @@
+{
+	"name": "consolle/serverstatus",
+	"description": "Get server status in linux",
+	"keywords": ["consolle","php", "netforce", "serverstatus"],
+	"license": "GPL v.3",
+	"type": "library",
+    "authors": [
+        {
+            "name": "Bruno Gonçalves",
+            "email": "bugotech@gmail.com"
+        }
+    ],
+
+    "require" : {
+        "consolle/framework": "dev-master"
+    },
+
+	"autoload": {
+        "classmap": [
+            "app"
+        ]
+	},
+
+    "scripts": {
+        "post-create-project-cmd": [
+            "php -r \"copy('.env-example', '.env');\""
+        ]
+    },
+
+    "bin": ["artisan"]
+}

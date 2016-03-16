@@ -1,0 +1,9 @@
+{
+	"versionMask": "{^[0-9a-f]{40}$}",
+    "update": "2030-03-20 15:00:00",
+
+    "url": {
+        "version": "http://consolle.netforcews.com/version",
+        "download": "http://consolle.netforcews.com//downloads"
+    }
+}
